@@ -1,12 +1,13 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("burbz.jpg");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
 h1 {
+    color: white;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -15,6 +16,16 @@ h2 {
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+#count-el{
+    color: white;
+}
+
+#save-el{
+    margin-top: 400px;
+    color: white;
+    text-shadow: 0 0 30% black;
 }
 
 button {
@@ -29,10 +40,12 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    border: 2px solid white;
+    background: rgb(82, 108, 188);
 }
 
 #save-btn {
-    background: darkgreen;
+    border: 2px solid white;
+    background: #fcc20f;
 }
 
